@@ -18,7 +18,7 @@
 <body>
     <?php
 
-        echo $_SERVER['HTTP_USER_AGENT'];
+        // echo $_SERVER['HTTP_USER_AGENT'];
 
         $yo = date("Y/m/d H:i:s");
         $who = $_SERVER['REMOTE_ADDR'];
